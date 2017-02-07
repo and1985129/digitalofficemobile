@@ -3,36 +3,39 @@
 		"id":"1",
 		"hostId": "abc",
 		"attendees" : [],
-		"type":"meeting",
+		"type":"Meeting",
 		"title" : "All Hands Meeting",
 		"dateTime" : "1485331585747",
 		"location" : {
-				"name" : "CTU2 8.02"
+				"name" : "dt"
 			},
+		"curLocation":"frontdesk",
 		"content" : "Test meeting appointment"
 	},
 	{
 		"id":"2",
 		"hostId": "abc",
 		"attendees" : [],
-		"type":"meeting",
+		"type":"Meeting",
 		"title" : "Coffee Corner Session",
 		"dateTime" : "1485331685747",
 		"location" : {
-				"name" : "CTU2 8.14"
+				"name" : "dt"
 			},
+		"curLocation":"male",
 		"content" : "Prepare the coffee"
 	},
 	{
 		"id":"3",
 		"hostId": "abc",
 		"attendees" : [],
-		"type":"meeting",
+		"type":"Meeting",
 		"title" : "Gaming",
 		"dateTime" : "1485331685747",
 		"location" : {
-				"name" : "CTU2 7.14"
+				"name" : "dt"
 			},
+		"curLocation":"collaboration",
 		"content" : "Time for fun"
 	}
 ]
