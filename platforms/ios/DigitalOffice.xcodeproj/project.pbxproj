@@ -21,6 +21,7 @@
 		41A4208AE77847EE8F739AAF /* LMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055303AF1B74F75A37D9ACD /* LMLogger.m */; };
 		C281B5B841F94719B240F994 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA177AC3D2C84E289E7F19A6 /* CoreBluetooth.framework */; };
 		B6BBD2E7E2BB4487B0D0AC38 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19C5FF1A8DD40FDBAE37D79 /* CoreLocation.framework */; };
+		A3C02DA8A9944F0BB7459E0E /* CDVCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C6B303FE24BEA96C35D85 /* CDVCompass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		DC7CDB2B5ADF4216AAF60DAB /* LMLogger.h */ = {isa = PBXFileReference; name = "LMLogger.h"; path = "com.unarin.cordova.beacon/LMLogger.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		FA177AC3D2C84E289E7F19A6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; name = "CoreBluetooth.framework"; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		D19C5FF1A8DD40FDBAE37D79 /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		543C6B303FE24BEA96C35D85 /* CDVCompass.m */ = {isa = PBXFileReference; name = "CDVCompass.m"; path = "cordova-plugin-device-orientation/CDVCompass.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		BF9D9963CF004D02866B6F06 /* CDVCompass.h */ = {isa = PBXFileReference; name = "CDVCompass.h"; path = "cordova-plugin-device-orientation/CDVCompass.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +185,8 @@
 				B03F98852EEE4BCA9F83EDA4 /* CDVLocationManager.h */,
 				C2BF32BA49E24584BDDCE4C0 /* AppDelegate+CDVLocationManager.h */,
 				DC7CDB2B5ADF4216AAF60DAB /* LMLogger.h */,
+				543C6B303FE24BEA96C35D85 /* CDVCompass.m */,
+				BF9D9963CF004D02866B6F06 /* CDVCompass.h */,
 			);
 			name = Plugins;
 			path = "DigitalOffice/Plugins";
@@ -297,6 +302,7 @@
 				717034F5B1984939ACC02F22 /* CDVLocationManager.m in Sources */,
 				5CE37C1F0FB94B26B64F9E3B /* AppDelegate+CDVLocationManager.m in Sources */,
 				41A4208AE77847EE8F739AAF /* LMLogger.m in Sources */,
+				A3C02DA8A9944F0BB7459E0E /* CDVCompass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

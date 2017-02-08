@@ -12,6 +12,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.test"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.test"
         }
     },
     "dependent_plugins": {}
