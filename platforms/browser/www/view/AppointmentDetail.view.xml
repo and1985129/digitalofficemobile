@@ -1,0 +1,16 @@
+<mvc:View
+	controllerName="sap.dm.controller.AppointmentDetail"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:map="sap.dm.control.map">
+	<Page
+		title="Appointment Navigation"
+		navButtonPress="handleNavBack"
+		showNavButton="{device>/isPhone}"
+		showFooter="false">
+		<content>
+			<map:Map location="{nav>/location}" destination="{nav>/destination}" orientation="{nav>/orientation}" showThumbnail="onPressShowThumb" isThumbnail="false"></map:Map>
+		</content>
+	</Page>
+</mvc:View>
