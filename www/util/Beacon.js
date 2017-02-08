@@ -15,7 +15,7 @@ sap.ui.define([], function() {
 	        var delegate = new cordova.plugins.locationManager.Delegate();
 
 	        delegate.didRangeBeaconsInRegion = function (pluginResult) {
-	        	beacons = pluginResult.beacons
+	        	beacons = pluginResult.beacons;
 
 	            console.log(JSON.stringify(pluginResult));
 	        };
@@ -54,7 +54,7 @@ sap.ui.define([], function() {
 
 			// 过道
 			if ((firstBeacon.major === 201) || (firstBeacon.major === 202)) {
-				return {"major": firstBeacon.major, "minor": firstBeacon.minor};
+				return {"majorId": firstBeacon.major, "minorId": firstBeacon.minor};
 			}
 
 			// 不在过道 计算加权房间位置
@@ -168,7 +168,7 @@ sap.ui.define([], function() {
 			});
 
 			if (wRooms.length > 0) {
-				return {"major": wRooms[0].major, "minor": wRooms[0].minor};
+				return {"majorId": wRooms[0].major, "minorId": wRooms[0].minor};
 			}
 		}
 	};
