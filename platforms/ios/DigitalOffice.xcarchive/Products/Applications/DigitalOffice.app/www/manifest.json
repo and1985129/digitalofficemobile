@@ -1,0 +1,116 @@
+{
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.dm.view.App",
+			"type": "XML"
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			},{
+				"uri": "control/map/css/style.css"
+			}],
+			"js": [{
+				"uri": "lib/underscore-min.js"
+			},{
+				"uri": "lib/snap.svg-min-3.0.js"
+			}]
+		},
+		"includes": ["css/style.css"],
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "sap.dm.view",
+				"controlId": "idSplitApp",
+				"transition": "slide",
+				"bypassed": {
+					"target": 
+						[	
+						]
+				}
+			},
+			"routes": [{
+				"pattern": "menu",
+				"name": "menu",
+				"target": "menu"
+			},
+			{
+				"pattern": "notFound/{id}",
+				"name": "notFoundAppointment",
+				"target": "notFound"
+			},
+			{
+				"pattern": "sitemap",
+				"name": "sitemap",
+				"target": "sitemap"
+			},
+			{
+				"pattern": "appointment",
+				"name": "appointment",
+				"target": "appointment"
+			},
+			{
+				"pattern": "",
+				"name": "login",
+				"target": "login"
+			},
+			{
+				"pattern": "appointment/{id}",
+				"name": "appointmentDetail",
+				"target": "appointmentDetail"
+			},
+			{
+				"pattern": "about",
+				"name": "about",
+				"target": "about"
+			},{
+				"pattern": "successStories",
+				"name": "successStories",
+				"target": "successStories"
+			}],
+			"targets": {
+				"appointment": {
+					"viewName": "Appointment",
+					"viewLevel": 2,
+					"controlAggregation": "pages"
+				},
+				"sitemap": {
+					"viewName": "Sitemap",
+					"viewLevel": 3,
+					"controlAggregation": "pages"
+				},
+				"login": {
+					"viewName": "Login",
+					"viewLevel": 0,
+					"controlAggregation": "pages"
+				},
+				"appointmentDetail": {
+					"viewName": "AppointmentDetail",
+					"viewLevel": 3,
+					"controlAggregation": "pages"
+				},
+				"menu": {
+					"viewName": "Menu",
+					"viewLevel": 1,
+					"controlAggregation": "pages"
+				},
+				"notFound": {
+					"viewName": "NotFound",
+					"viewLevel": 3,
+					"controlAggregation": "pages"
+				},
+				"about": {
+					"viewName": "About",
+					"viewLevel": 2,
+					"controlAggregation": "pages"
+				},
+				"successStories": {
+					"viewName": "SuccessStories",
+					"viewLevel": 2,
+					"controlAggregation": "pages"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,347 @@
+[
+	{
+		"locationId": "frontdesk",
+		"description": "Front desk",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue": 1.1,
+			"yValue": 1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"106",
+				"minorId":"1"
+			},
+			{
+				"majorId":"106",
+				"minorId":"2"
+			}
+		
+		]
+	},
+	{
+		"locationId": "mr0805-0806",
+		"description": "MR 0805-0806",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"101",
+				"minorId":"1"
+			},
+			{
+				"majorId":"101",
+				"minorId":"2"
+			},
+			{
+				"majorId":"101",
+				"minorId":"3"
+			}
+		]
+	},
+	{
+		"locationId": "dt",
+		"description": "Design Thinking",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"102",
+				"minorId":"1"
+			},
+			{
+				"majorId":"102",
+				"minorId":"2"
+			},
+			{
+				"majorId":"102",
+				"minorId":"3"
+			}
+		]
+	},
+	{
+		"locationId": "mr0824",
+		"description": "MR 08.24",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"107",
+				"minorId":"1"
+			},
+			{
+				"majorId":"107",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "108",
+		"description": "VR 08.03",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"108",
+				"minorId":"1"
+			},
+			{
+				"majorId":"108",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "pantry",
+		"description": "Pantry",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"103",
+				"minorId":"1"
+			},
+			{
+				"majorId":"103",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "105",
+		"description": "Rest Room",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"105",
+				"minorId":"1"
+			},
+			{
+				"majorId":"105",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "collaboration",
+		"description": "Collaboration Room",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"104",
+				"minorId":"1"
+			},
+			{
+				"majorId":"104",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "painting",
+		"description": "Painting Room",
+		"type":"ROOM",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"109",
+				"minorId":"1"
+			},
+			{
+				"majorId":"109",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-1-1",
+		"description": "Aisle-1-1",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"201",
+				"minorId":"1"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-1-2",
+		"description": "Aisle-1-2",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"201",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-1-3",
+		"description": "Aisle-1-3",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"201",
+				"minorId":"3"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-1-4",
+		"description": "Aisle-1-4",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"201",
+				"minorId":"4"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-2-1",
+		"description": "Aisle-2-1",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"202",
+				"minorId":"1"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-2-2",
+		"description": "Aisle-2-2",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"202",
+				"minorId":"2"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-2-3",
+		"description": "Aisle-2-3",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"202",
+				"minorId":"3"
+			}
+		]
+	},
+	{
+		"locationId": "aisle-2-4",
+		"description": "Aisle-2-4",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"202",
+				"minorId":"4"
+			}
+		]
+	},
+	{
+		"locationId": "20205",
+		"description": "Aisle-2-5",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"202",
+				"minorId":"5"
+			}
+		]
+	},
+	{
+		"locationId": "20206",
+		"description": "Aisle-2-6",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"202",
+				"minorId":"6"
+			}
+		]
+	},
+	{
+		"locationId": "20207",
+		"description": "Aisle-2-7",
+		"type":"AISLE",
+		"coordinate":{
+			"xValue":1.1,
+			"yValue":1.1
+		},
+		"referenceBeacons":[
+			{
+				"majorId":"202",
+				"minorId":"7"
+			}
+		]
+	}
+]

@@ -1,0 +1,55 @@
+<mvc:View
+	controllerName="sap.dm.controller.Login"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	displayBlock="true"
+	xmlns="sap.m">
+	<Page class="loginPage">
+		<content>
+			<Panel>
+				<Image
+					width="40%"
+					class="sapLogo"
+					src="img/sap_logo_256.png"
+					densityAware="false"></Image>
+				<VBox
+					justifyContent="Center"
+					alignItems="Center"
+					alignContent="Center">
+					<Title
+						class="productTitle"
+						level="H3"
+						text="Digital Office"></Title>
+					<VBox
+						class="loginForm"
+						visible="{oFormLoginModel>/bInital}">
+						<Button
+							icon=""
+							text="Pin Code"
+							press="onPressPinCode">
+						</Button>
+						<Button
+							icon=""
+							text="Face Identify">
+						</Button>
+					</VBox>
+					<VBox
+						visible="{oFormLoginModel>/bPinCode}"
+						class="loginForm">
+						<Text text="Please enter the pin code"></Text>
+						<Input
+							id="idPinCode"
+							value="{oFormLoginModel>/pinCode}"></Input>
+						<Button
+							text="Login"
+							press="onPinCodeLogin"></Button>
+					</VBox>
+				</VBox>
+				<Text
+					id="idDebug"
+					text="{debug>/debugInfo}"></Text>
+			</Panel>
+		</content>
+	</Page>
+</mvc:View>
